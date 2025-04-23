@@ -43,5 +43,5 @@ btn.addEventListener("click",()=>{
 	}).then((data)=>{
 		div.textContent=`Result: ${data}`;
 		return additon(data);
-	}).then((data)=>div.textContent=`Result: ${data}`);
+	}).then((data)=>div.textContent=`Final Result: ${data}`);
 });
